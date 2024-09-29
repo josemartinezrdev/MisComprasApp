@@ -1,0 +1,42 @@
+.formulario {
+  display: grid;
+  gap: 5px;
+}
+
+.form-cli {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.form-iz {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-der {
+  display: flex;
+  flex-direction: column;
+}
+.form-der .send {
+  margin-top: 20px;
+}
+
+.centro {
+  grid-column: span 2;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.cat {
+  align-items: start;
+  overflow: scroll;
+  white-space: nowrap;
+}
+
+.cat button {
+  margin-top: 10px;
+  position: relative;
+  left: 45%;
+}
